@@ -1,0 +1,20 @@
+@media only screen and (max-width: 576px) {
+    .nav-first {
+        display: none;
+    }
+
+    .only-sm {
+        display: none;
+    }
+
+    .margin-tp {
+        margin-top: 50px;
+    }
+    
+}
+
+@media only screen and (min-width: 990px) {
+    .only-sm-v {
+        display: none;
+    }
+}
