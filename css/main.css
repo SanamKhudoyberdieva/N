@@ -580,3 +580,89 @@ footer a:hover {
     color: #FFFFFF;
     border: 1px solid #111111;
 }
+
+.btn-chekout {
+    border: 1px solid #000000;
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 100%;
+    height: 50px;
+}
+
+.btn-chekout:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.btn-chekout-white {
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+    color: #000000;
+    width: 100%;
+    height: 50px;
+}
+
+.btn-chekout-white:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+    padding-top: 10px;
+}
+
+.mt-45 {
+    margin-top: 72px;
+}
+
+.fc-checkout {
+    padding: 25px 10px;
+}
+
+.margin-st {
+    margin-left: 90px;
+}
+
+.back-link {
+    text-decoration: none;
+    margin-top: 3px;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+
+.es-checkout-pr-list {
+    top: 20px;
+}
+
+.btn-404 {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 12px 100px;
+    border: 1px solid #000000;
+}
+
+.btn-404:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.wrp {
+    position: relative;
+    width: 100%;
+    max-width: 340px;
+}
+
+.btn-like-bold {
+    border: none;
+    background-color: inherit;
+}
+
+.wrp .btn-like-bold {
+    position: absolute;
+    top: 5%;
+    left: 80%;
+}
