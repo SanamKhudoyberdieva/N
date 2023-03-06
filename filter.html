@@ -1,0 +1,1325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>N</title>
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg bg-black nav-first">
+        <div class="container">
+            <ul class="navbar-nav  text-400 text-16">
+                <li class="nav-item">
+                    <a class="nav-link me-3" href="#">Оплата</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link me-3" href="#">Доставка</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link me-3" href="#">Возврат</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav  text-400 text-16">
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <button class="btn color-white dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Uz
+                        </button>
+                        <ul class="dropdown-menu dropdown-language">
+                            <li><a class="dropdown-item" href="#">Ru</a></li>
+                            <li><a class="dropdown-item" href="#">Eng</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ms-3" href="tel:99890 990 90 90">99890 990 90 90</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ms-3" href="#">пн-сб: 9:00-20:00</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-white nav-second">
+        <div class="container">
+            <ul class="navbar-nav text-400 text-16 only-sm nav-link-social">
+                <li class="nav-item">
+                    <a class="nav-link me-2" href="#">
+                        <img src="images/instagram-ic.svg" alt="instagram icon">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link me-2" href="#">
+                        <img src="images/facebook-ic.svg" alt="facebook icon">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link me-2" href="#">
+                        <img src="images/telegram-ic.svg" alt="telegram icon">
+                    </a>
+                </li>
+            </ul>
+            <ul class="navbar-nav text-400 text-16">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="images/logo.svg" alt="logo">
+                    </a>
+                </li>
+                <li class="only-sm-v">
+                    <button class="hamb-btn">
+                        <img src="images/hamburger-nav.svg" alt="">
+                    </button>
+                </li>
+            </ul>
+            <ul class="navbar-nav text-400 text-16 only-sm">
+                <form class="d-flex" role="search">
+                    <input class="form-control rounded-pill bg-search" type="search" placeholder="Поиск"
+                        aria-label="Search">
+                </form>
+                <li class="nav-item">
+                    <a class="nav-link ms-2" href="#">
+                        <img src="images/bag-ic.svg" alt="bag icon">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn nav-link ms-2" href="#" type="button" data-bs-toggle="modal"
+                        data-bs-target="#registrationModal">
+                        <img src="images/profile-ic.svg" alt="profile icon">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ms-2" href="#">
+                        <img src="images/like-ic.svg" alt="like icon">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <main>
+        <nav class="es-menu-nav position-relative d-none d-lg-block">
+            <div class="container">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <div class="dropdown es-cat-dropdown">
+                            <button class="btn rounded-0 nav-link es-text-black dropdown-toggle" disabled
+                                data-toggle="dropdown" aria-expanded="false">
+                                Мужчинам
+                            </button>
+                            <div class="dropdown-menu">
+                                <div class="es-dropdown-top es-grey-border-b w-100"></div>
+                                <div class="container ">
+                                    <div class="es-cat-menu-wrapper">
+                                        <div class="products-list">
+                                            <h3 class="es-weight-500 es-size-16 pl-3 es-text-black">Обувь</h3>
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Кроссовки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Ботинки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Кеды</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Сапоги</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Тапочки</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="products-list">
+                                            <h3 class="es-weight-500 es-size-16 pl-3 es-text-black">Одежда</h3>
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Футболки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Жилетки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Толстовки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Куртки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Шорты</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Брюки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Костюмы</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Поло</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Поло</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="products-list">
+                                            <h3 class="es-weight-500 es-size-16 pl-3 es-text-black">Аксессуары</h3>
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="products-list">
+                                            <h3 class="es-weight-500 es-size-16 pl-3 es-text-black">Бренды</h3>
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="products-list">
+                                            <h3 class="es-weight-500 es-size-16 pl-3 es-text-black">Коллекции</h3>
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown es-cat-dropdown">
+                            <button class="btn rounded-0 nav-link es-text-black dropdown-toggle" disabled
+                                data-toggle="dropdown" aria-expanded="false">
+                                Женщинам
+                            </button>
+                            <div class="dropdown-menu">
+                                <div class="es-dropdown-top es-grey-border-b w-100"></div>
+                                <div class="container ">
+                                    <div class="es-cat-menu-wrapper">
+                                        <div class="products-list">
+                                            <h3 class="es-weight-500 es-size-16 pl-3 es-text-black">Обувь</h3>
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Кроссовки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Ботинки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Кеды</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Сапоги</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Тапочки</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="products-list">
+                                            <h3 class="es-weight-500 es-size-16 pl-3 es-text-black">Одежда</h3>
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Футболки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Жилетки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Толстовки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Куртки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Шорты</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Брюки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Костюмы</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Поло</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Поло</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="products-list">
+                                            <h3 class="es-weight-500 es-size-16 pl-3 es-text-black">Обувь</h3>
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="products-list">
+                                            <h3 class="es-weight-500 es-size-16 pl-3 es-text-black">Обувь</h3>
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="products-list">
+                                            <h3 class="es-weight-500 es-size-16 pl-3 es-text-black">Обувь</h3>
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown es-cat-dropdown">
+                            <button class="btn rounded-0 nav-link es-text-black dropdown-toggle" disabled
+                                data-toggle="dropdown" aria-expanded="false">
+                                Аксессуары
+                            </button>
+                            <div class="dropdown-menu">
+                                <div class="es-dropdown-top es-grey-border-b w-100"></div>
+                                <div class="container ">
+                                    <div class="es-cat-menu-wrapper">
+                                        <div class="products-list">
+                                            <h3 class="es-weight-500 es-size-16 pl-3 es-text-black">Обувь</h3>
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Кроссовки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Ботинки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Кеды</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Сапоги</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Тапочки</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="products-list">
+                                            <h3 class="es-weight-500 es-size-16 pl-3 es-text-black">Одежда</h3>
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Футболки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Жилетки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Толстовки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Куртки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Шорты</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Брюки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Костюмы</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Поло</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Поло</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="products-list">
+                                            <h3 class="es-weight-500 es-size-16 pl-3 es-text-black">Обувь</h3>
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="products-list">
+                                            <h3 class="es-weight-500 es-size-16 pl-3 es-text-black">Обувь</h3>
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="products-list">
+                                            <h3 class="es-weight-500 es-size-16 pl-3 es-text-black">Обувь</h3>
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown es-cat-dropdown">
+                            <button class="btn rounded-0 nav-link es-text-black dropdown-toggle" disabled
+                                data-toggle="dropdown" aria-expanded="false">
+                                Бренды
+                            </button>
+                            <div class="dropdown-menu">
+                                <div class="es-dropdown-top es-grey-border-b w-100"></div>
+                                <div class="container ">
+                                    <div class="es-cat-menu-wrapper">
+                                        <div class="products-list">
+                                            <h3 class="es-weight-500 es-size-16 pl-3 es-text-black">Обувь</h3>
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Кроссовки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Ботинки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Кеды</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Сапоги</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Тапочки</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="products-list">
+                                            <h3 class="es-weight-500 es-size-16 pl-3 es-text-black">Одежда</h3>
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Футболки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Жилетки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Толстовки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Куртки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Шорты</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Брюки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Костюмы</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Поло</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Поло</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="products-list">
+                                            <h3 class="es-weight-500 es-size-16 pl-3 es-text-black">Обувь</h3>
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="products-list">
+                                            <h3 class="es-weight-500 es-size-16 pl-3 es-text-black">Обувь</h3>
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="products-list">
+                                            <h3 class="es-weight-500 es-size-16 pl-3 es-text-black">Обувь</h3>
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown es-cat-dropdown">
+                            <button class="btn rounded-0 nav-link es-text-black dropdown-toggle" disabled
+                                data-toggle="dropdown" aria-expanded="false">
+                                О компании
+                            </button>
+                            <div class="dropdown-menu">
+                                <div class="es-dropdown-top es-grey-border-b w-100"></div>
+                                <div class="container ">
+                                    <div class="es-cat-menu-wrapper">
+                                        <div class="products-list">
+                                            <h3 class="es-weight-500 es-size-16 pl-3 es-text-black">Обувь</h3>
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Кроссовки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Ботинки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Кеды</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Сапоги</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Тапочки</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="products-list">
+                                            <h3 class="es-weight-500 es-size-16 pl-3 es-text-black">Одежда</h3>
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Футболки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Жилетки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Толстовки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Куртки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Шорты</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Брюки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Костюмы</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Поло</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Поло</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="products-list">
+                                            <h3 class="es-weight-500 es-size-16 pl-3 es-text-black">Обувь</h3>
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="products-list">
+                                            <h3 class="es-weight-500 es-size-16 pl-3 es-text-black">Обувь</h3>
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="products-list">
+                                            <h3 class="es-weight-500 es-size-16 pl-3 es-text-black">Обувь</h3>
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown es-cat-dropdown">
+                            <button class="btn rounded-0 nav-link es-text-black dropdown-toggle" disabled
+                                data-toggle="dropdown" aria-expanded="false">
+                                Акции
+                            </button>
+                            <div class="dropdown-menu">
+                                <div class="es-dropdown-top es-grey-border-b w-100"></div>
+                                <div class="container ">
+                                    <div class="es-cat-menu-wrapper">
+                                        <div class="products-list">
+                                            <h3 class="es-weight-500 es-size-16 pl-3 es-text-black">Обувь</h3>
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Кроссовки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Ботинки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Кеды</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Сапоги</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Тапочки</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="products-list">
+                                            <h3 class="es-weight-500 es-size-16 pl-3 es-text-black">Одежда</h3>
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Футболки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Жилетки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Толстовки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Куртки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Шорты</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Брюки</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Костюмы</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Поло</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Поло</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="products-list">
+                                            <h3 class="es-weight-500 es-size-16 pl-3 es-text-black">Обувь</h3>
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="products-list">
+                                            <h3 class="es-weight-500 es-size-16 pl-3 es-text-black">Обувь</h3>
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="products-list">
+                                            <h3 class="es-weight-500 es-size-16 pl-3 es-text-black">Обувь</h3>
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="d-flex mt-5 mb-5">
+                <a class="text-400 text-14 text-decoration-none" href="#">Главная </a>
+                <span class="text-400 text-14"> /</span>
+                <a class="text-400 text-14 text-decoration-none" href="#">Мужчинам</a>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <h4 class="text-550 text-20">Фильтр товаров</h4>
+                    <p class="text-400 text-14 line-h-15 color-grey">Воспользуйтесь фильтром, для более точного поиска товара</p>
+                    <button class="btn-chekout">Сбросить</button>
+                    <div class="accordion mt-4" id="accordionExample">
+                        <div class="accordion-item border-start-0 border-end-0 bg-white">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Тип товара
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label">
+                                            Кроссовки (308)
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label">
+                                            Кеды (104)
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label">
+                                            Аксессуары (3)
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label">
+                                            Кроссовки (308)
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label">
+                                            Аксессуары для тренинга (31)
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label">
+                                            Брюки (77)
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label">
+                                            Жилетки (4)
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label">
+                                            Кепки (74)
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-start-0 border-end-0 bg-body">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button  bg-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Бренд
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label">
+                                            Nike
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label">
+                                            Jordan
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label">
+                                            Converse
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label">
+                                            Helly Hansen
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label">
+                                            Adidas
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label">
+                                            New Balance
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-start-0 border-end-0 bg-body">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button bg-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Коллекции
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label">
+                                            NBA
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label">
+                                            NIKE AIR
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label">
+                                            Air Jordan 2
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label">
+                                            Air Jordan 13ccc
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label">
+                                            Air Jordan 5
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label">
+                                            Air Jordan Retro Models
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-start-0 border-end-0 bg-body">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button bg-white  bg-whitecollapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Размер
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <button class="btn-languages">US</button>
+                                    <button class="btn-languages">RU</button>
+                                    <button class="btn-languages">EU</button>
+                                    <button class="btn-languages">CM</button>
+                                    <button class="btn-languages">EU</button>
+                                    <button class="btn-languages">EU</button>
+                                    <button class="btn-languages">US</button>
+                                    <button class="btn-languages">RU</button>
+                                    <button class="btn-languages">EU</button>
+                                    <button class="btn-languages">CM</button>
+                                    <button class="btn-languages">RU</button>
+                                    <button class="btn-languages">US</button>
+                                    <button class="btn-languages">CM</button>
+                                    <button class="btn-languages">EU</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-start-0 border-end-0 bg-body">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button bg-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Цвет
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <button>+</button>
+                                    <button>+</button>
+                                    <button>+</button>
+                                    <button>+</button>
+                                    <button>+</button>
+                                    <button>+</button>
+                                    <button>+</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-start-0 border-end-0 bg-body">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button bg-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Цена
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <label for="min-amount">Price range:</label>
+                                    <input type="text" id="amount" readonly style="border:0; color:#000; font-weight:bold;">
+                                    <label for="max-amount">Price range:</label>
+                                    <input type="text" id="amount" readonly style="border:0; color:#000; font-weight:bold;">
+                                    <div id="slider-range"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col-9">
+                    <div class="d-flex justify-content-between">
+                        <h1>Мужчинам</h1>
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle border-bottom" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span>Сортировать по</span>
+                                <img src="images/arrow-down.svg" alt="arrow">
+                            </button>
+                            <ul class="dropdown-menu p-3">
+                                <li class="dropdown-item ms-1">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label">
+                                        Акционные
+                                    </label>
+                                </li>
+                                <li class="dropdown-item ms-1">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label">
+                                        Новинки
+                                    </label>
+                                </li>
+                                <li class="dropdown-item ms-1">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label">
+                                        По рейтингу
+                                    </label>
+                                </li>
+                                <li class="dropdown-item ms-1">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label">
+                                        По убыванию цены
+                                    </label>
+                                </li>
+                                <li class="dropdown-item ms-1">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label">
+                                        По возростанию цены
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 product-container">
+                            <img class="product-img img-fluid" src="images/filter1.jpg" alt="product">
+                            <button class="btn-like">
+                                <img src="images/like-ic.svg" alt="like icon">
+                            </button>
+                            <div class="product-desc">
+                                <p class="color-grey text-400 text-14 mb-2">Артикул: Dq5972-100</p>
+                                <p class="color-black text-550 text-16 line-h-15 mb-2">Куртка NIKE M NK SF WR PL-FLD HD JKT</p>
+                                <p class="text-14 text-400 m-0">Для мужчин</p>
+                                <p class="text-16 text-550 line-h-15 m-0">450 000 сум</p>
+                            </div>
+                        </div>
+                        <div class="col-4 product-container">
+                            <img class="product-img img-fluid" src="images/filter2.jpg" alt="product">
+                            <button class="btn-like">
+                                <img src="images/like-ic.svg" alt="like icon">
+                            </button>
+                            <div class="product-desc">
+                                <p class="color-grey text-400 text-14 mb-2">Артикул: Dq5972-100</p>
+                                <p class="color-black text-550 text-16 line-h-15 mb-2">Куртка NIKE M NK SF WR PL-FLD HD JKT</p>
+                                <p class="text-14 text-400 m-0">Для мужчин</p>
+                                <p class="text-16 text-550 line-h-15 m-0">450 000 сум</p>
+                            </div>
+                        </div>
+                        <div class="col-4 product-container">
+                            <img class="product-img img-fluid" src="images/filter3.jpg" alt="product">
+                            <button class="btn-like">
+                                <img src="images/like-ic.svg" alt="like icon">
+                            </button>
+                            <div class="product-desc">
+                                <p class="color-grey text-400 text-14 mb-2">Артикул: Dq5972-100</p>
+                                <p class="color-black text-550 text-16 line-h-15 mb-2">Куртка NIKE M NK SF WR PL-FLD HD JKT</p>
+                                <p class="text-14 text-400 m-0">Для мужчин</p>
+                                <p class="text-16 text-550 line-h-15 m-0">450 000 сум</p>
+                            </div>
+                        </div>
+                        <div class="col-4 product-container">
+                            <img class="product-img img-fluid" src="images/filter4.jpg" alt="product">
+                            <button class="btn-like">
+                                <img src="images/like-ic.svg" alt="like icon">
+                            </button>
+                            <div class="product-desc">
+                                <p class="color-grey text-400 text-14 mb-2">Артикул: Dq5972-100</p>
+                                <p class="color-black text-550 text-16 line-h-15 mb-2">Куртка NIKE M NK SF WR PL-FLD HD JKT</p>
+                                <p class="text-14 text-400 m-0">Для мужчин</p>
+                                <p class="text-16 text-550 line-h-15 m-0">450 000 сум</p>
+                            </div>
+                        </div>
+                        <div class="col-4 product-container">
+                            <img class="product-img img-fluid" src="images/filter5.jpg" alt="product">
+                            <button class="btn-like">
+                                <img src="images/like-ic.svg" alt="like icon">
+                            </button>
+                            <div class="product-desc">
+                                <p class="color-grey text-400 text-14 mb-2">Артикул: Dq5972-100</p>
+                                <p class="color-black text-550 text-16 line-h-15 mb-2">Куртка NIKE M NK SF WR PL-FLD HD JKT</p>
+                                <p class="text-14 text-400 m-0">Для мужчин</p>
+                                <p class="text-16 text-550 line-h-15 m-0">450 000 сум</p>
+                            </div>
+                        </div>
+                        <div class="col-4 product-container">
+                            <img class="product-img img-fluid" src="images/filter6.jpg" alt="product">
+                            <button class="btn-like">
+                                <img src="images/like-ic.svg" alt="like icon">
+                            </button>
+                            <div class="product-desc">
+                                <p class="color-grey text-400 text-14 mb-2">Артикул: Dq5972-100</p>
+                                <p class="color-black text-550 text-16 line-h-15 mb-2">Куртка NIKE M NK SF WR PL-FLD HD JKT</p>
+                                <p class="text-14 text-400 m-0">Для мужчин</p>
+                                <p class="text-16 text-550 line-h-15 m-0">450 000 сум</p>
+                            </div>
+                        </div>
+                        <div class="col-4 product-container">
+                            <img class="product-img img-fluid" src="images/filter7.jpg" alt="product">
+                            <button class="btn-like">
+                                <img src="images/like-ic.svg" alt="like icon">
+                            </button>
+                            <div class="product-desc">
+                                <p class="color-grey text-400 text-14 mb-2">Артикул: Dq5972-100</p>
+                                <p class="color-black text-550 text-16 line-h-15 mb-2">Куртка NIKE M NK SF WR PL-FLD HD JKT</p>
+                                <p class="text-14 text-400 m-0">Для мужчин</p>
+                                <p class="text-16 text-550 line-h-15 m-0">450 000 сум</p>
+                            </div>
+                        </div>
+                        <div class="col-4 product-container">
+                            <img class="product-img img-fluid" src="images/filter8.jpg" alt="product">
+                            <button class="btn-like">
+                                <img src="images/like-ic.svg" alt="like icon">
+                            </button>
+                            <div class="product-desc">
+                                <p class="color-grey text-400 text-14 mb-2">Артикул: Dq5972-100</p>
+                                <p class="color-black text-550 text-16 line-h-15 mb-2">Куртка NIKE M NK SF WR PL-FLD HD JKT</p>
+                                <p class="text-14 text-400 m-0">Для мужчин</p>
+                                <p class="text-16 text-550 line-h-15 m-0">450 000 сум</p>
+                            </div>
+                        </div>
+                        <div class="col-4 product-container">
+                            <img class="product-img img-fluid" src="images/filter9.jpg" alt="product">
+                            <button class="btn-like">
+                                <img src="images/like-ic.svg" alt="like icon">
+                            </button>
+                            <div class="product-desc">
+                                <p class="color-grey text-400 text-14 mb-2">Артикул: Dq5972-100</p>
+                                <p class="color-black text-550 text-16 line-h-15 mb-2">Куртка NIKE M NK SF WR PL-FLD HD JKT</p>
+                                <p class="text-14 text-400 m-0">Для мужчин</p>
+                                <p class="text-16 text-550 line-h-15 m-0">450 000 сум</p>
+                            </div>
+                        </div>
+                    </div>
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                            <li class="page-item">
+                                <a class="page-link border-0" href="#" aria-label="Previous">
+                                <span aria-hidden="true">
+                                    <img src="images/arrow-right.svg" alt="">
+                                </span>
+                                </a>
+                            </li>
+                            <li class="page-item"><a class="page-link page-a" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link page-a" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link page-a" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link page-a" href="#">4</a></li>
+                            <li class="page-item">
+                                <a class="page-link border-0 " href="#" aria-label="Next">
+                                <span aria-hidden="true">
+                                    <img src="images/arrow-left.svg" alt="">
+                                </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-black margin-tp">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 margin-tp">
+                    <img src="images/logo-footer.svg" alt="logo">
+                    <a href="#">
+                        <img class="margin-tp" src="images/location.svg" alt="location">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-3 margin-tp">
+                    <div class="nav-item-footer">
+                        <a href="#">Обратная связь</a>
+                    </div>
+                    <div class="nav-item-footer">
+                        <a href="#">О компании</a>
+                    </div>
+                    <div class="nav-item-footer">
+                        <a href="#">Оферта</a>
+                    </div>
+                    <div class="nav-item-footer">
+                        <a href="#">Оплата</a>
+                    </div>
+                    <div class="nav-item-footer">
+                        <a href="#">Доставка</a>
+                    </div>
+                    <div class="nav-item-footer">
+                        <a href="#">Возврат</a>
+                    </div>
+                </div>
+                <div class="col-5 margin-tp text-end">
+                    <div class="nav-item-footer">
+                        <a href="tel:99890 990 90 90">99890 990 90 90</a>
+                    </div>
+                    <div class="nav-item-footer">
+                        <a href="#">пн-сб: 9:00-20:00</a>
+                    </div>
+                    <a class="ms-3" href="#">
+                        <img src="images/instgram-ic-footer.svg" alt="instagram icon">
+                    </a>
+                    <a class="ms-3" href="#">
+                        <img src="images/facebook-ic-footer.svg" alt="facebook icon">
+                    </a>
+                    <a class="ms-3" href="#">
+                        <img src="images/telegram-ic-footer.svg" alt="telegram icon">
+                    </a>
+                    <div class="mt-5">
+                        <a href="#">
+                            <img src="images/back-ic.svg" alt="back icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <p class="border-tp-footer color-white text-400 text-16 margin-tp">©2023 Nike. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="registrationModal" tabindex="-1" aria-labelledby="registrationModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content position-relative p-5">
+                <button class="es-modal-close btn p-1 position-absolute" data-dismiss="modal" aria-label="Close">
+                    <img class="d-flex" src="images/modal-close.svg" alt="">
+                </button>
+                <div class="mb-5">
+                    <img class="d-block m-auto" src="images/logo.svg" alt="">
+                </div>
+                <p class="text-550">Выберите пол</p>
+                <div class="row es-mb-30 es-mb-sm-20">
+                    <div class="radio-container col-6">
+                        <input type="radio" id="radio1" name="gender" />
+                        <label for="radio1"><span class="radio-label">Мужской</span></label>
+                    </div>
+                    <div class="radio-container col-6">
+                        <input type="radio" id="radio2" name="gender" />
+                        <label for="radio2"><span class="radio-label">Женский</span></label>
+                    </div>
+                </div>
+                <input type="text" class="form-control es-mb-30 es-mb-sm-20" placeholder="Номер телефона">
+                <input type="text" class="form-control es-mb-30 es-mb-sm-20" placeholder="Ваше имя">
+                <input type="text" class="form-control es-mb-30 es-mb-sm-20" placeholder="Дата рождения">
+                <input type="text" class="form-control es-mb-30 es-mb-sm-20" value="+99890 990 90 90">
+                <button class="btn es-btn-black es-btn-50">Далее</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

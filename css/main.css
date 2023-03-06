@@ -666,3 +666,67 @@ footer a:hover {
     top: 5%;
     left: 80%;
 }
+
+.btn-inc {
+    border-right: #000000 1px solid;
+    border-radius: 0;
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF;
+}
+
+.btn-dec {
+    border-left: #000000 1px solid;
+    border-radius: 0;
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF;
+}
+
+.cart-btn {
+    border: 1px solid #000000;
+    width: 120px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.cart-btn span {
+    margin: auto;
+}
+
+.btn-delete {
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin: auto;
+    padding: 2px 10px;
+    background-color: inherit;
+}
+
+.btn-delete:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.page-a {
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;
+    border: none;
+}
+
+.page-a:hover {
+    border: 1px solid #000000;
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: inherit;
+}
+
+.btn-languages {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin: 5px;
+    border: 1px solid #E6E6E6;
+    background-color: inherit;
+}
